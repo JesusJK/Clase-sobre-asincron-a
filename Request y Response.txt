@@ -1,0 +1,12 @@
+Request (Petición)                En la Web trabjamos con verbos
+  ^  |                              -get
+  |  |  Pagina Principal            -post
+  |  ^                              -put - pacth
+Response                            -delete
+
+
+El servidor hasta que no puede reponder por los otros usuarios que entran por orden no va atender a otros que entraron despues,
+una secuencia de pasos (Programacion sincrona).
+
+En una programación asincrona se pueden hacer varias peticiones y no siempre el primero que entra no va a hacer el primero que van a atender,
+ya que que el sistema hace muchas peticiones al mismo tiempo
